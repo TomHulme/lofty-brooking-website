@@ -41,11 +41,10 @@ html, body {
 	}
 	
 	.column {
-	  &, &.img-container { align-items: flex-start !important; }
 	  padding: 30px;
-	  
 	  img {
 	    max-width: 100%;
+	    margin: 0 auto;
 	  }
 	}
 }
