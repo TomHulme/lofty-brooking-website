@@ -5,6 +5,12 @@ $creamWhite: #FEFAE0;
 $orangeLight: #DDA15E;
 $orangeDark: #BC6C25;
 
+@font-face {
+	font-family: 'USSRArmy';
+	src: url('/_includes/USSRArmy.ttf');
+	src: url('/_includes/USSRArmy.ttf') format('truetype');
+}
+
 html, body {
 	background-color: $greenDark !important;
 }
