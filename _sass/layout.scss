@@ -447,18 +447,10 @@ footer {
 	padding: 60px 0;
 }
 
-.container.footer-wrapper {
-  background-color: transparent;
-  
-  .footer-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: $greenDark;
-  }
+.footer-container {
+  width: 100%;
+  text-align: center;
+  color: $orangeLight;
 }
 
 .dates {
