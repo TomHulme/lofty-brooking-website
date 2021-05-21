@@ -1,6 +1,7 @@
 @font-face {
-  font-family: USSRArmy;
-  src: url(https://secret-dawn.cloudvent.net/_includes/USSRArmy.ttf);
+	font-family: 'USSRArmy';
+	src: url('/_includes/USSRArmy.ttf');
+	src: url('/_includes/USSRArmy.ttf') format('truetype');
 }
 
 html, body {
