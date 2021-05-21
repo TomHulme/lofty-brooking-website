@@ -41,7 +41,7 @@ html, body {
 	}
 	
 	.column {
-	  align-items: flex-start !important;
+	  &, &.img-container { align-items: flex-start !important; }
 	  padding: 30px;
 	  
 	  img {
