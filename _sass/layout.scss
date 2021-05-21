@@ -17,6 +17,10 @@ html, body {
 	padding: 50px 30px;
 	box-sizing: border-box;
 	background-color: $charcoal;
+	
+	p, h1, h2, h3, h4, h5 {
+	  color: $creamWhite;
+	}
 }
 
 header {
