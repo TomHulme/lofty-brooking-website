@@ -48,20 +48,33 @@ html, body {
 	position: relative;
 	padding: 30px;
 	box-sizing: border-box;
-	background-color: $greenLight;
 	border-radius: 15px;
-	border: solid 3px $creamWhite;
+	
+	&.green {
+  	background-color: $greenLight;
+  	border: solid 3px $creamWhite;
+  	
+		p, span {
+      color: #eee;
+    }
+	}
+	
+	&.white {
+  	background-color: $creamWhite;
+  	border: solid 3px $greenLight;
+  	
+		p, span {
+      color: $greenDark;
+    }
+	}
 	
 	&.centered {
 	  display: flex;
 	  align-items: center;
 	}
 	
-	p, span {
-	  color: #eee;
-	}
 	h1, h2, h3, h4, h5 {
-	  color: $greenDark;
+    color: $greenDark;
 	  font-family: 'USSRArmy';
 	  letter-spacing: 2px;
 	}
