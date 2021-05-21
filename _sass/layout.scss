@@ -1,3 +1,10 @@
+$charcoal: #292929;
+$greenLight: #606C38;
+$greenDark: #283618;
+$creamWhite: #FEFAE0;
+$orangeLight: #DDA15E;
+$orangeDard: #BC6C25;
+
 .container {
 	max-width: 1000px;
 	width: 100%;
@@ -5,6 +12,7 @@
 	position: relative;
 	padding: 50px 30px;
 	box-sizing: border-box;
+	background-color: $charcoal;
 }
 
 header {
@@ -359,13 +367,6 @@ footer {
 	background: #f8fafb;
 	padding: 60px 0;
 }
-
-$charcoal: #292929;
-$greenLight: #606C38;
-$greenDark: #283618;
-$creamWhite: #FEFAE0;
-$orangeLight: #DDA15E;
-$orangeDard: #BC6C25;
 
 .container {
   .footer-container {
