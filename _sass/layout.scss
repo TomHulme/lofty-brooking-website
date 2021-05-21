@@ -41,8 +41,9 @@ html, body {
 	}
 	
 	.column {
-	  align-items: flex-start;
+	  align-items: flex-start !important;
 	  padding: 30px;
+	  
 	  img {
 	    max-width: 100%;
 	  }
