@@ -48,6 +48,11 @@ html, body {
 	border-radius: 15px;
 	border: solid 3px $creamWhite;
 	
+	&.centered {
+	  display: flex;
+	  align-items: center;
+	}
+	
 	p, span {
 	  color: #eee;
 	}
