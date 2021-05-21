@@ -19,9 +19,12 @@ $orangeDark: #BC6C25;
 html, body {
 	background-color: $greenDark !important;
 	font-family: 'NixieOne', 'Courier New', monospace;
+	
   .content {
     padding: 60px 0;
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
   }
