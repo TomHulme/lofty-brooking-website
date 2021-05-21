@@ -448,6 +448,8 @@ footer {
 }
 
 .container.footer-wrapper {
+  background-color: transparent;
+  
   .footer-container {
     width: 100%;
     display: flex;
@@ -456,7 +458,6 @@ footer {
     align-items: center;
     text-align: center;
     color: $greenDark;
-    background-color: transparent;
   }
 }
 
