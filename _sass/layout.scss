@@ -39,6 +39,12 @@ html, body {
 	    font-size: 3em;
 	  }
 	}
+	
+	.column {
+	  img {
+	    max-width: 100%;
+	  }
+	}
 }
 
 header {
