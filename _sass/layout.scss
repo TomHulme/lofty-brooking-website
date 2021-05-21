@@ -32,6 +32,13 @@ html, body {
 	  font-family: 'USSRArmy';
 	  letter-spacing: 2px;
 	}
+	
+	h1 {
+	  font-size: 4em;
+	  @media screen and (max-width: 1279px) {
+	    font-size: 3em;
+	  }
+	}
 }
 
 header {
