@@ -3,7 +3,7 @@ $greenLight: #606C38;
 $greenDark: #283618;
 $creamWhite: #FEFAE0;
 $orangeLight: #DDA15E;
-$orangeDard: #BC6C25;
+$orangeDark: #BC6C25;
 
 html, body {
 	background-color: $charcoal !important;
@@ -15,6 +15,7 @@ html, body {
 	position: relative;
 	padding: 50px 30px;
 	box-sizing: border-box;
+	background-color: $creamWhite;
 }
 
 header {
