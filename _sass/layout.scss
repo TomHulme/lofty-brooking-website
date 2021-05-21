@@ -5,6 +5,10 @@ $creamWhite: #FEFAE0;
 $orangeLight: #DDA15E;
 $orangeDard: #BC6C25;
 
+html, body {
+	background-color: $charcoal !important;
+}
+
 .container {
 	max-width: 1000px;
 	width: 100%;
@@ -12,7 +16,6 @@ $orangeDard: #BC6C25;
 	position: relative;
 	padding: 50px 30px;
 	box-sizing: border-box;
-	background-color: $charcoal;
 }
 
 header {
