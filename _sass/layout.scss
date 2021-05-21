@@ -33,7 +33,7 @@ html, body {
 	box-sizing: border-box;
 	background-color: $greenLight;
 	border-radius: 15px;
-  box-shadow: rgba(254, 250, 224, 0.7) 3px 3px 6px;
+	border: solid 3px rgba(0, 0, 0, 0.7);
 	
 	p, span {
 	  color: #eee;
