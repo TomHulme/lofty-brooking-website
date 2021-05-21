@@ -19,6 +19,9 @@ $orangeDark: #BC6C25;
 html, body {
 	background-color: $greenDark !important;
 	font-family: 'NixieOne', 'Courier New', monospace;
+  .content {
+    padding: 60px 0;
+  }
 }
 
 .container {
