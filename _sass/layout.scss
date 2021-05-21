@@ -63,7 +63,9 @@ html, body {
   .img-container {
     
     &.bordered-img {
-      border-radius: 10px;
+      img {
+        border-radius: 10px;
+      }
     }
   }
 }
