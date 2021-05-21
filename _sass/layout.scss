@@ -21,6 +21,8 @@ html, body {
 	font-family: 'NixieOne', 'Courier New', monospace;
   .content {
     padding: 60px 0;
+    display: flex;
+    justify-content: center;
   }
   
   header {
