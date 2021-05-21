@@ -53,14 +53,13 @@ html, body {
 	  padding: 30px;
 	  align-items: flex-start !important;
 	}
-	
-	
-  img {
-    max-width: 100%;
-    margin: 0 auto;
-  }
   
   .img-container {
+    
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
     
     &.bordered-img {
       img {
