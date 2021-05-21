@@ -167,8 +167,8 @@ nav .button {
 		box-sizing: border-box;
 		margin: 70px 0px;
 		width: 100%;
-		border: 1px solid #dfdfdf;
-		border-radius: 3px;
+		border: 1px solid $greenLight;
+		border-radius: 5px;
 		padding: 0 30px 25px 30px;
 		@media #{$desktop} {
 			width: 33%;
