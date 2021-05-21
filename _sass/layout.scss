@@ -18,8 +18,11 @@ html, body {
 	box-sizing: border-box;
 	background-color: $greenLight;
 	
-	p, h1, h2, h3, h4, h5 {
-	  color: $charcoal;
+	p, span {
+	  color: #eee;
+	}
+	h1, h2, h3, h4, h5 {
+	  color: $orangeDark;
 	}
 }
 
