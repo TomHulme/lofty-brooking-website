@@ -360,6 +360,13 @@ footer {
 	padding: 60px 0;
 }
 
+$charcoal { color: #292929; }
+$greenLight { color: #606C38; }
+$greenDark { color: #283618; }
+$creamWhite { color: #FEFAE0; }
+$orangeLight { color: #DDA15E; }
+$orangeDard { color: #BC6C25; }
+
 .container {
   .footer-container {
     width: 100%;
@@ -375,3 +382,8 @@ footer {
   font-weight: 600;
 }
 
+.icon-container {
+  svg {
+    fill: 
+  }
+}
