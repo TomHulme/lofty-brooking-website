@@ -80,6 +80,11 @@ html, body {
 	
 	&.details {
 	  padding: 15px;
+	  li.thirds {
+      &:not:last-child {
+        margin-right: 30px;
+      }
+    }
 	  
 	  @media screen and (max-width: 654px) {
 	    padding: 30px;
