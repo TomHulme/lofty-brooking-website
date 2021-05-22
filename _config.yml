@@ -7,7 +7,7 @@ baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /favicon.png
+logo: /images/nana-and-papa.jpg
 description: In Loving Memory of Lofty Brooking.
 author:
   name:
