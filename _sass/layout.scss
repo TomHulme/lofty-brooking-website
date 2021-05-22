@@ -187,7 +187,7 @@ nav .button {
 		padding: 30px;
 		background-color: #eee;
 		@media #{$desktop} {
-			width: calc(100vw/3 - 30px);
+			width: calc(100%/3 - 30px);
 			margin: 0 15px;
 		}
 
