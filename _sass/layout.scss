@@ -54,6 +54,11 @@ html, body {
 	position: relative;
 	box-sizing: border-box;
 	border-radius: 15px;
+	text-align: center;
+	
+	@media #{$desktop} {
+	  text-align: left;
+	}
 	
 	&.green {
   	background-color: $greenLight;
@@ -186,8 +191,9 @@ nav .button {
 		border-radius: 5px;
 		padding: 30px;
 		background-color: #eee;
+		margin: 15px 0;
 		
-		&:not(:last-child) { margin: 0 15px 15px; }
+		&:last-child { margin: 0 15px 15px; }
 		
 		@media #{$desktop} {
 			width: calc(100%/3 - 30px);
