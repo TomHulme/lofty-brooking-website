@@ -187,7 +187,7 @@ nav .button {
 		padding: 30px;
 		background-color: #eee;
 		
-		&:not(:last-child) { margin: 0 15px; }
+		&:not(:last-child) { margin: 0 15px 15px; }
 		
 		@media #{$desktop} {
 			width: calc(100%/3 - 30px);
