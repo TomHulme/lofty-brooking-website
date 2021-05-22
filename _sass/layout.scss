@@ -24,6 +24,7 @@ $orangeDark: #BC6C25;
 html, body {
 	background-color: $greenDark !important;
 	font-family: 'NixieOne', 'Courier New', monospace;
+	max-width: 100vw;
 	
   .content {
     padding: 60px 0 0;
