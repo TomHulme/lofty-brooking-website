@@ -80,7 +80,7 @@ html, body {
 	
 	&.details {
 	  padding: 15px;
-	  li.thirds {
+	  .thirds li {
       &:not:last-child {
         margin: 0 30px 0 0;
       }
@@ -89,7 +89,7 @@ html, body {
 	  @media screen and (max-width: 654px) {
 	    padding: 30px;
 	    
-	    li.thirds {
+	    .thirds li {
 	      &:not:last-child {
 	        margin: 0 0 30px 0;
 	      }
