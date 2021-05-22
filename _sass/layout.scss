@@ -11,6 +11,11 @@ $orangeDark: #BC6C25;
 	src: url('/images/USSRArmy.ttf') format('truetype');
 }
 @font-face {
+	font-family: 'ARMYRUST';
+	src: url('/images/ARMYRUST.ttf');
+	src: url('/images/ARMYRUST.ttf') format('truetype');
+}
+@font-face {
 	font-family: 'NixieOne';
 	src: url('/images/NixieOne.ttf');
 	src: url('/images/NixieOne.ttf') format('truetype');
@@ -75,7 +80,7 @@ html, body {
 	
 	h1, h2, h3, h4, h5 {
     color: $greenDark;
-	  font-family: 'USSRArmy';
+	  font-family: 'ARMYRUST';
 	  letter-spacing: 2px;
 	}
 	
