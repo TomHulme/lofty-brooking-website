@@ -99,6 +99,10 @@ html, body {
 	.column {
 	  padding: 30px;
 	  align-items: flex-start !important;
+	  
+	  &:first-child {
+	    padding-bottom: 0;
+	  }
 	}
   
   .img-container {
