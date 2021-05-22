@@ -6,11 +6,6 @@ $orangeLight: #DDA15E;
 $orangeDark: #BC6C25;
 
 @font-face {
-	font-family: 'USSRArmy';
-	src: url('/images/USSRArmy.ttf');
-	src: url('/images/USSRArmy.ttf') format('truetype');
-}
-@font-face {
 	font-family: 'ARMYRUST';
 	src: url('/images/ARMYRUST.ttf');
 	src: url('/images/ARMYRUST.ttf') format('truetype');
@@ -191,7 +186,7 @@ nav .button {
 		border-radius: 5px;
 		padding: 30px;
 		background-color: #eee;
-		margin: 15px 0;
+		margin: 15px;
 		
 		&:last-child { margin: 0 15px 15px; }
 		
