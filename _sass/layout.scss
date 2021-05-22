@@ -78,6 +78,20 @@ html, body {
 	  align-items: center;
 	}
 	
+	&.details {
+	  padding: 15px;
+	  
+	  @media screen and (max-width: 654px) {
+	    padding: 30px;
+	    
+	    li.thirds {
+	      &:not:last-child {
+	        margin-bottom: 30px;
+	      }
+	    }
+	  }
+	}
+	
 	h1, h2, h3, h4, h5 {
     color: $greenDark;
 	  font-family: 'ARMYRUST';
