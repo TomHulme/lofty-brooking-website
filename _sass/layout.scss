@@ -83,13 +83,13 @@ html, body {
     color: $greenDark;
 	  font-family: 'ARMYRUST';
 	  letter-spacing: 2px;
+	  line-height: 1;
 	}
 	
 	h1 {
 	  letter-spacing: 4px;
 	  font-size: 3em;
 	  text-shadow: 2px 2px rgba(255,255,255,0.15);
-	  line-height: 1;
 
 	  @media screen and (min-width: 751px) and (max-width: 1279px) {
 	    letter-spacing: 2px;
