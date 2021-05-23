@@ -67,7 +67,9 @@ html, body {
 }
 
 .wrapper { 
-  width: 1005;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
