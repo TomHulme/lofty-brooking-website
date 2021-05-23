@@ -95,6 +95,11 @@ title: 'The man, the myth, the legend. Lofty Brooking.'
 
 <script type="text/javascript">
   $(document).ready(function() {
-    $("#lightSlider").lightSlider(); 
+    $("#lightSlider").lightSlider({
+      item: 1,
+      autoWidth: false,
+      slideMove: 1,
+      slideMargin: 10
+    }); 
   });
 </script>
