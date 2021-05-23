@@ -117,6 +117,7 @@ html, body {
 	}
 	
 	&.carousel {
+	  padding: 30px;
 	  .lSSlideOuter .lSPager.lSpg > li.active a, .lSSlideOuter .lSPager.lSpg > li:hover a {
       background-color: $greenDark;
     }
