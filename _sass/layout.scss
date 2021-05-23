@@ -76,7 +76,7 @@ html, body {
 
 .container {
   max-width: 1000px;
-	width: 100%;
+	width: calc(100% - 60px);
 	margin: 0 30px 60px;
 	position: relative;
 	box-sizing: border-box;
