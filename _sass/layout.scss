@@ -214,14 +214,6 @@ nav .button {
 		background-color: #eee;
 		margin: 15px;
 		
-		@media #{$desktop} {
-			width: calc(100%/3 - 30px);
-			margin: 0 15px;
-			&:first-child, &:last-child {
-  		  margin: 0 15px;
-  		}
-		}
-		
 		&:first-child {
 		  margin: 0 15px 15px;
 		}
@@ -244,6 +236,14 @@ nav .button {
 		svg {
 			fill: $brand-color;
 			padding: 5px;
+		}
+		
+		@media #{$desktop} {
+			width: calc(100%/3 - 30px);
+			margin: 0 15px;
+			&:first-child, &:last-child {
+  		  margin: 0 15px;
+  		}
 		}
 	}
 }
