@@ -37,6 +37,8 @@
 		    
 		<script type="text/javascript">
       $(document).on('ready', function() {
+        
+        console.log('in here');
   			$('a[href*=\\#]').on('click', function(event){
   				var el = $(this.hash);
   				if (el.length > 0) {
