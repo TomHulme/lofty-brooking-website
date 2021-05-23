@@ -44,12 +44,14 @@
   					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   				}
   			});
+  			console.log('pre');
         $("#carousel").slick({
           dots: true,
           infinite: true,
           slidesToShow: 3,
           slidesToScroll: 3
         });
+  			console.log('post');
       });
 		</script>
 	</body>
