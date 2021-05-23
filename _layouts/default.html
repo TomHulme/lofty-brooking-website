@@ -24,6 +24,8 @@
 		{% endif %}
 	</head>
 	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/images/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 		<div class="content">
 			{{ content }}
 		</div>
@@ -32,14 +34,10 @@
 				Hulmetrics&#169;. All rights reserved 2021.
 			</div>
 		</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/images/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 		    
 		<script type="text/javascript">
 		  var $ = jQuery;
       $(document).on('ready', function() {
-        
-        console.log('in here');
   			$('a[href*=\\#]').on('click', function(event){
   				var el = $(this.hash);
   				if (el.length > 0) {
@@ -47,14 +45,12 @@
   					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   				}
   			});
-  			console.log('pre');
         $("#carousel").slick({
           dots: true,
           infinite: true,
           slidesToShow: 3,
           slidesToScroll: 3
         });
-  			console.log('post');
       });
 		</script>
 	</body>
