@@ -21,6 +21,25 @@ html, body {
 	font-family: 'NixieOne', 'Courier New', monospace;
 	max-width: 100vw;
 	
+	.white {
+  	a {
+  	  color: $greenLight;
+  	  &:hover {
+  	    color: $greenDark;
+  	  }
+  	}
+	}
+	
+	.green {
+	  a {
+  	  color: $greenDark;
+  	  &:hover {
+  	    color: $creamWhite;
+  	  }
+	    
+	  }
+	}
+	
   .content {
     padding: 60px 0 0;
     display: flex;
