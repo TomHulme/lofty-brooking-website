@@ -84,7 +84,9 @@ html, body {
 	text-align: center;
 	
 	@media #{$desktop} {
-	  text-align: left;
+	  &:not(.carousel) {
+	    text-align: left;
+	  }
 	}
 	
 	&.green {
