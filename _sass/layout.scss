@@ -217,6 +217,12 @@ nav .button {
 		@media #{$desktop} {
 			width: calc(100%/3 - 30px);
 			margin: 0 15px;
+			&:first-child {
+  		  margin: 0 15px;
+  		}
+  		&:last-child {
+  		  margin: 15px 0;
+  		}
 		}
 		
 		&:first-child {
